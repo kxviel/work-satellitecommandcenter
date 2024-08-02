@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #252525;
+  color: #ffffff;
+}
+
+a:link {
+  color: #5091cd;
+}
+
+a:visited {
+  color: #5091cd;
+}
+
+a:hover {
+  color: #5091cd;
+}
+
+a:active {
+  color: #5091cd;
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #252525;
+  color: #ffffff;
+}
+a:link {
+  color: #5091cd;
+}
+
+a:visited {
+  color: #5091cd;
+}
+
+a:hover {
+  color: #5091cd;
+}
+
+a:active {
+  color: #5091cd;
+}
+
+p {
+  margin: 0;
+}
+
+.ql-size-12px {
+  font-size: 0.75rem;
+}
+.ql-size-14px {
+  font-size: 0.875rem;
+}
+.ql-size-16px {
+  font-size: 1rem;
+}
+.ql-size-18px {
+  font-size: 1.125rem;
+}
+.ql-size-20px {
+  font-size: 1.25rem;
+}
+.ql-size-24px {
+  font-size: 1.5rem;
+}
+.ql-size-28px {
+  font-size: 1.75rem;
+}
+.ql-size-36px {
+  font-size: 2.25rem;
+}
+.ql-indent-1:not(.ql-direction-rtl) {
+  padding-left: 3em;
+}
+li.ql-indent-1:not(.ql-direction-rtl) {
+  padding-left: 4.5em;
+}
+.ql-indent-2:not(.ql-direction-rtl) {
+  padding-left: 6em;
+}
+li.ql-indent-2:not(.ql-direction-rtl) {
+  padding-left: 7.5em;
+}
+.ql-indent-3:not(.ql-direction-rtl) {
+  padding-left: 9em;
+}
+li.ql-indent-3:not(.ql-direction-rtl) {
+  padding-left: 10.5em;
+}
+.ql-indent-4:not(.ql-direction-rtl) {
+  padding-left: 12em;
+}
+li.ql-indent-4:not(.ql-direction-rtl) {
+  padding-left: 13.5em;
+}
+.ql-indent-5:not(.ql-direction-rtl) {
+  padding-left: 15em;
+}
+li.ql-indent-5:not(.ql-direction-rtl) {
+  padding-left: 16.5em;
+}
+.ql-indent-6:not(.ql-direction-rtl) {
+  padding-left: 18em;
+}
+li.ql-indent-6:not(.ql-direction-rtl) {
+  padding-left: 19.5em;
+}
+.ql-indent-7:not(.ql-direction-rtl) {
+  padding-left: 21em;
+}
+li.ql-indent-7:not(.ql-direction-rtl) {
+  padding-left: 22.5em;
+}
+.ql-indent-8:not(.ql-direction-rtl) {
+  padding-left: 24em;
+}
+li.ql-indent-8:not(.ql-direction-rtl) {
+  padding-left: 25.5em;
+}
+.ql-indent-9:not(.ql-direction-rtl) {
+  padding-left: 27em;
+}
+li.ql-indent-9:not(.ql-direction-rtl) {
+  padding-left: 28.5em;
+}
+ol,
+ul {
+  padding-left: 0px;
+}
+ul > li:not(.ql-direction-rtl) {
+  padding-left: 1em;
+}
+ol > li,
+ul > li {
+  list-style-type: none;
+}
+ul > li::before {
+  content: "\2022";
+  display: inline-block;
+  white-space: nowrap;
+  width: 1.2em;
+}
+ol li {
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  counter-increment: list-0;
+}
+ol li:before {
+  content: counter(list-0, decimal) ". ";
+}
